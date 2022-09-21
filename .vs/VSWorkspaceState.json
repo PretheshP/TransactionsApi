@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Helper",
+    "\\Models",
+    "\\Properties",
+    "\\Provider",
+    "\\Repository"
+  ],
+  "SelectedNode": "\\Controllers\\TransactionController.cs",
+  "PreviewInSolutionExplorer": false
+}
