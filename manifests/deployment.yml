@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "bankingaks-7fc4"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "bankingaks-7fc4"
+  template:
+    metadata:
+      labels:
+        app: "bankingaks-7fc4"
+    spec:
+      containers:
+        - name: "bankingaks-7fc4"
+          image: "accountscr.azurecr.io/bankingaks"
+          ports:
+          - containerPort: 80
